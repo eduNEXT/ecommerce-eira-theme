@@ -1,0 +1,19 @@
+// local variables
+// --------------------
+$brand-logo-max-width: 150px !default;
+$brand-logo-max-height: 52px !default;
+$scaled-height: 39px !default;
+
+// utilities
+@import "utilities/mixins";
+
+// overrides
+// --------------------
+.navbar-brand {
+    margin: 0 0 0 -15px;
+
+    .navbar-brand-logo {
+        max-width: $brand-logo-max-width; 
+        max-height: $brand-logo-max-height;
+     }
+}
